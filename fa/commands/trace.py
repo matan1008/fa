@@ -1,3 +1,5 @@
+import pdb
+
 from fa.commands import utils
 
 
@@ -6,7 +8,6 @@ def get_parser():
     return p
 
 
-def run(segments, manners, addresses, args, **kwargs):
-    addresses = list(addresses)
-    addresses.sort()
+def run(segments, args, addresses, **kwargs):
+    pdb.set_trace()
     return addresses
